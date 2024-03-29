@@ -22,7 +22,5 @@ clean:
 
 fclean: clean
 	rm -f $(NAME)
-	rm -f *.html
-	rm -f *.css
 
 re: fclean all
